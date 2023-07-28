@@ -1,0 +1,8 @@
+{
+  "name": "avatar",
+  "type": "components:ui",
+  "dependencies": [
+    "@oku-ui/avatar"
+  ],
+  "content": "\"<script setup lang=\\\"ts\\\">\\nimport { OkuAvatarFallback } from '@oku-ui/avatar'\\n</script>\\n\\n<template>\\n  <OkuAvatarFallback\\n    class=\\\"flex items-center text-white font-medium text-2xl h-full w-full justify-center\\\"\\n    :delay-ms=\\\"100\\\"\\n  >\\n    <slot />\\n  </OkuAvatarFallback>\\n</template>\\n\""
+}

@@ -1,0 +1,8 @@
+{
+  "name": "avatar",
+  "type": "components:ui",
+  "dependencies": [
+    "@oku-ui/avatar"
+  ],
+  "content": "\"<script setup lang=\\\"ts\\\">\\nimport { OkuAvatar } from '@oku-ui/avatar'\\n\\n\\n</script>\\n\\n<template>\\n  <OkuAvatar :class=\\\"attrs.class ? attrs.class : \\\"relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full\\\">\\n    <slot />\\n  </OkuAvatar>\\n</template>\\n\""
+}

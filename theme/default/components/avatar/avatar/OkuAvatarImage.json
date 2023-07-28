@@ -1,0 +1,8 @@
+{
+  "name": "avatar",
+  "type": "components:ui",
+  "dependencies": [
+    "@oku-ui/avatar"
+  ],
+  "content": "\"<script setup lang=\\\"ts\\\">\\nimport { OkuAvatarImage } from '@oku-ui/avatar'\\n</script>\\n\\n<template>\\n  <OkuAvatarImage class=\\\"w-full h-full object-cover\\\" :src=\\\"src\\\" />\\n</template>\\n\""
+}
